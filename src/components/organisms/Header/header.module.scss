@@ -8,32 +8,27 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
-    
 
-    @media (min-width:376px){
-        align-items: flex-end;
-    }
-
-    &__lines {
-        position: absolute;
-        bottom: 390px;
-        right: 210px;
-    }
-
-    &__Oval {
-        position: absolute;
-        left: 85%;
-        top: 40%;
-        
-    }
     &__container {
+        display: flex;
         width: 200px;
         height: 400px;
+        align-items: center;
+        flex-direction: column;
         background: linear-gradient(
             180deg,
             rgba(36, 36, 36, 0) 0.65%,
             #242424 100%
         );
+        @media (min-width: 768px) {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            padding: 0 30px;
+            background: unset;
+        }
         &__title {
             font-size: 24px;
             font-weight: 700;
@@ -41,26 +36,35 @@
             text-align: center;
             color: white;
             margin-top: 20px;
+            @media (min-width: 768px) {
+            }
         }
 
-        &__paragraph {
-            text-align: center;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 26px;
-            color: rgba(217, 217, 217, 1);
-        }
-
-        &__group {
+        &__picture{
+            width: 200px;
+            height: 400px;
+            background: linear-gradient(
+            180deg,
+            rgba(36, 36, 36, 0) 0.65%,
+            #242424 100%
+        );
+            &__group {
             align-items: center;
             margin-top: 20px;
             margin-left: 30px;
+            @media (min-width: 768px) {
+                
+                background: linear-gradient(
+                    180deg,
+                    rgba(36, 36, 36, 0) 0.65%,
+                    #242424 100%
+                );
+                
+            }
         }
-        &__img {
-            margin-top: 49px;
-            width: 100%;
-            height: auto;
-            
+
         }
+
+        
     }
 }

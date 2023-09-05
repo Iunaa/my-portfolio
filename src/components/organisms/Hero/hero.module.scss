@@ -1,0 +1,29 @@
+.hero{
+      &__lines {
+        position: absolute;
+        bottom: 390px;
+        right: 210px;
+        z-index: -1;
+    }
+
+    &__Oval {
+        position: absolute;
+        left: 85%;
+        top: 40%;
+    }
+
+     &__paragraph {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            color: rgba(217, 217, 217, 1);
+        }
+
+    &__img {
+            margin-top: 49px;
+            width: 100%;
+            height: auto;
+            
+        }
+}

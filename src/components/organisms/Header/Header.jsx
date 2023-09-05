@@ -8,17 +8,13 @@ export const Header = () => {
                     <h1 className={style.header__container__title}>
                         adamkeyes
                     </h1>
-                    <img
-                        className={style.header__container__group}
-                        src="/Group.png"
-                    />
-                    <img
-                        className={style.header__container__img}
-                        src="/image-s.png"
-                    />
+                    <picture className={style.header__container__picture}>
+                        <img
+                            className={style.header__container__picture__group}
+                            src="/Group.png"
+                        />
+                    </picture>
                 </div>
-                <img className={style.header__lines} src="/lines.png" />
-                <img className={style.header__Oval} src="/Oval.png" />
             </div>
         </>
     );
