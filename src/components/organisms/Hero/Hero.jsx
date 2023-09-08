@@ -10,15 +10,9 @@ export const Hero = () => {
                       className={Style.Hero__container__img}
                       src="/images/photo.png"
                   />
-                  <img
-                      className={Style.Hero__container__lines}
-                      src="/images/lines.png"
-                  />
-                  <img
-                      className={Style.Hero__container__Oval}
-                      src="/images/Oval.png"
-                  />
               </div>
+              <img className={Style.Hero__lines} src="/images/lines.png" />
+              <img className={Style.Hero__Oval} src="/images/Oval.png" />
           </div>
       </>
   );
