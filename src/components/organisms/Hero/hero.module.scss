@@ -1,4 +1,6 @@
-.hero{
+.Hero{
+
+    &__container{
       &__lines {
         position: absolute;
         bottom: 390px;
@@ -26,4 +28,5 @@
             height: auto;
             
         }
+    }
 }
