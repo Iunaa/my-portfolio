@@ -8,15 +8,15 @@ export const Hero = () => {
               <div className={Style.Hero__container}>
                   <img
                       className={Style.Hero__container__img}
-                      src="/photo.png"
+                      src="/images/photo.png"
                   />
                   <img
                       className={Style.Hero__container__lines}
-                      src="/lines.png"
+                      src="/images/lines.png"
                   />
                   <img
                       className={Style.Hero__container__Oval}
-                      src="/Oval.png"
+                      src="/images/Oval.png"
                   />
               </div>
           </div>
