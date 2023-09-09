@@ -27,12 +27,7 @@ export const Hero = () => {
                   </p>
                   <a className={Style.Hero__introduction__anchor}>contact me</a>
               </div>
-              <hr
-                  size="1"
-                  width="90%"
-                  align="center"
-                  color="rgba(255, 255, 255, 1)"
-              />
+              <hr size="1" width="90%" align="center" color='rgba(255, 255, 255, 1)'/>
           </div>
       </>
   );
