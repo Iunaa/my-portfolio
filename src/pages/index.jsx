@@ -1,5 +1,5 @@
-import { Header } from "@/components/organisms/Header/Header";
-import { Hero } from "@/components/organisms/Hero/Hero";
+import { AboveTheFold } from "@/components/organisms/Above_the_fold/AboveTheFold";
+
 
 
 
@@ -7,8 +7,7 @@ import { Hero } from "@/components/organisms/Hero/Hero";
 export default function Home() {
   return (
     <>
-    <Header/>
-    <Hero/>
+    <AboveTheFold/>
     
     
      
