@@ -1,0 +1,133 @@
+.Contact {
+    text-align: center;
+    margin-top: 60px;
+
+
+   @media (min-width: 1440px){
+     display: flex;
+     margin-right: 165px;
+     margin-left: 165px;
+   }
+    
+    &__Container{
+
+
+        @media(min-width: 1440px){
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+    &__title {
+        margin-bottom: 20px;
+
+        @media(min-width: 1440px){
+            text-align: left;
+        }
+    }
+
+    &__paragraph {
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        padding: 0 16px;
+        text-align: justify;
+        
+    }
+    }
+    &__anchor {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        border-color: rgba(78, 225, 160, 1);
+
+        @media(min-width: 1440px){
+            margin-top: 32px;
+            margin-bottom: 92px;
+        }
+    }
+
+    &__Form {
+        position: relative;
+        left: 60px;
+        padding: 15px 0 0;
+        margin-top: 10px;
+        width: 50%;
+        padding: 0 16px;
+
+        &__Name {
+            width: 100%;
+            border: 0;
+            text-align: left;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.281);
+            outline: 0;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.281);
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+        
+        &__Email {
+            width: 100%;
+            border: 0;
+            text-align: left;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.281);
+            outline: 0;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.281);
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+
+        &__Message {
+            width: 100%;
+            border: 0;
+            height: 107px;
+            text-align: left;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.281);
+            outline: 0;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.281);
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+ 
+        &__Field{
+            width: 100%;
+            border: 0;
+            outline: 0;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.281);
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+            
+
+        }
+
+
+    }
+      hr {
+        display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        opacity: 0.5;
+
+        @media (min-width: 1440px){
+            max-width: 1110px;  
+            margin-top: 140px;
+            margin-right: 100px;
+        }
+    }
+}

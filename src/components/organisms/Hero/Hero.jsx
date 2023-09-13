@@ -6,10 +6,16 @@ export const Hero = () => {
         <>
             <div className={Style.Hero}>
                 <div className={Style.Hero__container}>
-                    {/* <img
-                        className={Style.Hero__photo}
-                        src="/images/photo.png"
-                    /> */}
+                    <picture className={Style.Hero__container__picture}>
+                        <img
+                            className={Style.Hero__photo}
+                            src="/images/photo.png"
+                        />
+                        {/* <img
+                            className={Style.Hero__photo2}
+                            src="/images/photo2.png"
+                        /> */}
+                    </picture>
                 </div>
                 <img className={Style.Hero__lines} src="/images/Group26.png" />
                 <img className={Style.Hero__Oval} src="/images/circle.svg" />
@@ -32,8 +38,8 @@ export const Hero = () => {
                     <a className={Style.Hero__introduction__anchor}>
                         contact me
                     </a>
+                    <hr size="1" width="90%" align="center" />
                 </div>
-                <hr size="1" width="90%" align="center" />
             </div>
         </>
     );
