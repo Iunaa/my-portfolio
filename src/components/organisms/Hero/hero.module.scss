@@ -39,29 +39,25 @@
             align-items: flex-end;
             margin-right: 132px;
         }
-      
-        &__picture{
-             &__photo {
-                width: 100%;
-                height: auto;
-                @media(min-width: 768px){
-                    display: none;
-                }
-
-            &__photo2{
-                width: 100%;
-                height: auto;
-
-            }
+    
     }
 
-        }
- 
-    }
-        &__photo {
+    &__picture{}
+    
+    &__photo {
         width: 100%;
         height: auto;
+
+        @media(min-width: 1440px){
+            
+            
+            
+            
+        }
+        
     }
+  
+
     &__lines {
         position: absolute;
         bottom: 67%;
@@ -110,73 +106,92 @@
              align-items: flex-start;
              padding-left: 155px;
              padding-bottom: 260px;
+             right: 270px;
              
 
         }
+    }
 
-        &__title {
-            color: white;
-            text-align: center;
+     &__title {
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.136px;
+        text-align: center;
+        max-width: 383px;
+        max-height: 80px;
 
-            @media (min-width: 768px) {
-                font-size: 72px;
-                text-align: left;
-                padding-right: 120px;
-                
-            }
-
-            @media (min-width: 1024px) {
-                padding-top: 20px;
-                max-width: 709px;
-            }
-
-            &__underline {
-                text-decoration-color: rgb(78, 225, 160);
-            }
+        @media (min-width: 768px){
+           text-align: left;
+           margin-top: 30px;
+           margin-bottom: 60px;
         }
 
-        &__paragraph {
-            font-size: 16px;
-            text-align: center;
-            padding: 0 16px;
-            margin-top: 33px;
-            font-family: "Space Grotesk";
 
-            @media (min-width: 768px) {
-                font-size: 18px;
-                text-align: left;
-                padding-bottom: 34px;
-                padding-left: 0px;
-                padding-right: 240px;
-
-            }
-            @media (min-width: 1440px) {
-                font-size: 18px;
-                text-align: left;
-                padding-bottom: 34px;
-                
-                
-            }
+        @media (min-width: 1440px) {
+            font-size: 88px;
+            font-weight: 700;
+            line-height: 88px;
+            letter-spacing: -2.5px;
+            padding-top: 20px;
+            max-width: 709px;
         }
+     }
 
-        &__anchor {
-            text-transform: uppercase;
-            color: white;
-            margin-top: 24px;
-            border-width: 0 0 2px 0;
-            border-style: solid;
-            border-color: rgba(78, 225, 160, 1);
-            margin-bottom: 80px;
-            padding-bottom: 5px;
-            text-align: center;
+    &__underline {
+        text-decoration-color: rgb(78, 225, 160);
+    }
+       
 
-            @media (min-width: 768px) {
-            }
+    &__paragraph {
+        font-family: "Space Grotesk";
+        color: rgba(217, 217, 217, 1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        padding: 0 16px;
+        margin-top: 33px;
+        
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+            text-align: left;
+            padding-bottom: 34px;
+            padding-left: 0px;
+            padding-right: 240px;
+
+        }
+        @media (min-width: 1440px) {
+            font-size: 18px;
+            text-align: left;
+            margin-top: 43px;
+            
+            padding-bottom: 34px;
+            
+            
         }
     }
+
+     &__anchor {
+        text-transform: uppercase;
+        color: white;
+        margin-top: 24px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        border-color: rgba(78, 225, 160, 1);
+        margin-bottom: 80px;
+        padding-bottom: 5px;
+        text-align: center;
+
+        @media (min-width: 768px) {
+        }
+    }
+    
     hr {
         display: block;
-        margin-top: 0.5rem;
+        margin-top: 0.5em;
         margin-bottom: 0.5em;
         margin-left: auto;
         margin-right: auto;
@@ -184,10 +199,18 @@
         border-width: 1px;
         opacity: 0.5;
 
+        @media(min-width: 768px){
+        max-width: 1110px;
+        margin-top: 55px;
+
+        }
+
         @media (min-width: 1440px){
-            max-width: 1110px;  
-            margin-top: 140px;
-            margin-right: 100px;
+        max-width: 1110px;
+        margin-top: 140px;
+        margin-right: 100px;
         }
     }
 }
+    
+

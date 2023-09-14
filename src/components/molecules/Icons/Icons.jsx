@@ -1,21 +1,25 @@
-import React from 'react'
-import Style from '../Icons/icons.module.scss';
-import { Git } from '@/components/atoms/Icon_Git/Git';
-import { Mentor } from '@/components/atoms/Icon_Mentor/Mentor.jsx';
-import { LinkedIn } from '@/components/atoms/Icon_LinkedIn/LinkedIn';
-import { Twiter } from '@/components/atoms/Icon_Twiter/Twiter';
-import { Icone } from '@/components/atoms/Icone/Icone';
+import React from "react";
+import SocialMedia from "../../atoms/SocialMedia/SocialMedia";
+import styles from "./icons.module.scss";
 
+function Icons() {
+    return (
+        <div className={styles.container}>
+            <SocialMedia
+                href="https://github.com/Iunaa"
+                src="/images/git.svg"
+            />
 
-export const Icons = () => {
-  return (
-      <div className={Style.Icons}>
-        <Git/>
-        <Icone/>
-        <Mentor/>
-        <LinkedIn/>
-        <Twiter/>
-       
-      </div>
-  );
+            <SocialMedia href="#" src="/images/desconhecido.svg" />
+
+            <SocialMedia
+                href="https://www.linkedin.com/in/iuna-de-leon-8519b2221/"
+                src="/images/linkedIn.svg"
+            />
+
+            <SocialMedia href="#" src="/images/twiter.svg" />
+        </div>
+    );
 }
+
+export { Icons };

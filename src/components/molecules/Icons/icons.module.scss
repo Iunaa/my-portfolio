@@ -1,15 +1,6 @@
-.Icons{
-        display: flex;
-        padding-top: 20px;
-
-        @media (min-width: 768px) {
-              
-        
-         
-       
-            
-        }
-    
-        
-
+.container{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    cursor: pointer;
 }

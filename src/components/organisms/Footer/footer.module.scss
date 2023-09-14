@@ -1,6 +1,6 @@
 .footer {
   
-    margin-top: 200px;
+    margin-top: 39px;
     margin-bottom: 60px;
     padding: 0 123px;
 
@@ -10,17 +10,18 @@
         flex-direction: column;
         margin-top: 39px;
         @media (min-width: 768px) {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: baseline;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
         }
+    }
 
-        &__title {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 32px;
-            letter-spacing: -0.333px;
-            margin-bottom: 20px;
-        }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.333px;
+        margin-bottom: 20px;
     }
 }

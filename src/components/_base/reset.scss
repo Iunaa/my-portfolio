@@ -21,12 +21,33 @@
     html,
     body {
         background: black;
-        // background: rgb(0, 0, 0);
-        // background: linear-gradient(
-        //     180deg,
-        //     rgba(0, 0, 0, 1) 82%,
-        //     rgba(36, 36, 36, 1) 82%
-        // );
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 1) 84%,
+            rgba(36, 36, 36, 1) 84%
+        );
+
+        @media(min-width: 768px){
+            background: black;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 1) 77%,
+            rgba(36, 36, 36, 1) 77%
+        );
+        }
+
+        @media(min-width: 1440px){
+             background: black;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 1) 83%,
+            rgba(36, 36, 36, 1) 83%
+        );
+
+        }
         
     }
 

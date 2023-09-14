@@ -1,53 +1,53 @@
 import React from "react";
 import styles from "../Experience/experience.module.scss";
-import line2 from "../../../../public/images/line2.png"
+
 
 export const Experience = () => {
     return (
         <>
             <div className={styles.experience}>
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>HTML</h3>
                     <p className={styles.experience__time}>
                         4 Years Experience
                     </p>
                 </div>
 
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>CSS</h3>
                     <p className={styles.experience__time}>
                         4 Years Experience
                     </p>
                 </div>
 
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>Javascript</h3>
                     <p className={styles.experience__time}>
                         4 Years Experience
                     </p>
                 </div>
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>Accessibility</h3>
                     <p className={styles.experience__time}>
                         4 Years Experience
                     </p>
                 </div>
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>React</h3>
                     <p className={styles.experience__time}>
                         3 Years Experience
                     </p>
                 </div>
 
-                <div>
+                <div className={styles.experience__container}>
                     <h3 className={styles.experience__title}>Sass</h3>
                     <p className={styles.experience__time}>
                         3 Years Experience
                     </p>
                 </div>
+                <img className={styles.experience__line2} src="/images/line2.png" />
             </div>
-
-            {/* <img className={styles.line2} src={line2}/> */}
+            <hr className={styles.hr} size="1" width="90%" align="center" />
         </>
     );
 };

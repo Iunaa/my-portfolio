@@ -1,7 +1,8 @@
 .experience {
     margin-top: 40px;
+    position: relative;
     
-     border-bottom: 1px solid white;
+   
     
     
 
@@ -50,18 +51,38 @@
         margin-bottom: 40px;
     
 
-    @media(min-width: 768px){
-            text-align: left;
-            font-size: 18px;
-        }
-    @media(min-width: 1440px){
-        text-align: left;
+       @media(min-width: 768px){
+       text-align: left;
+       font-size: 18px;
+       }
+       @media(min-width: 1440px){
+       text-align: left;
+       }
     }
-    }
+
+    &__line2 {
+    position: absolute;
+    right: 0%;
+    bottom: -90px;
+    
+}
 }
 
-.line2 {
-    position: absolute;
-    left: 50%;
-    top: 142%;
+
+
+.hr {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity: 0.5;
+
+    @media (min-width: 1440px) {
+        max-width: 1110px;
+        margin-top: 140px;
+        margin-right: 100px;
+    }
 }
