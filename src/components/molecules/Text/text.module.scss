@@ -10,6 +10,11 @@
         padding-left: 16px;
 
     }
+
+    @media (min-width: 1440px) {
+        position: relative;
+        
+    }
     
 
      &__text {
@@ -23,6 +28,11 @@
         display: flex;
         gap: 32px;
         margin-top: 20px;
+
+        @media (min-width: 1440px) {
+            position: absolute;
+            display: none;
+        }
       
         
     }  

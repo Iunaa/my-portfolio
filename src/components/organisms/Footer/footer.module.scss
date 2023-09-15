@@ -1,21 +1,30 @@
 .footer {
-  
-    margin-top: 39px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 0 123px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 50px;
+    }
 
     &__Container {
         display: flex;
         align-items: center;
         flex-direction: column;
         margin-top: 39px;
+
         @media (min-width: 768px) {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-top: -20px;
+            margin-bottom: -20px;
+        }
+
+        @media (min-width: 1440px) {
+            margin-left: 47px;
         }
     }
-
 
     &__title {
         font-size: 24px;
@@ -23,5 +32,11 @@
         line-height: 32px;
         letter-spacing: -0.333px;
         margin-bottom: 20px;
+
+        @media(min-width: 768px){
+            margin-left: -90px;
+            margin-right: 390px;
+        }
+       
     }
 }

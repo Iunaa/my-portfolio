@@ -30,6 +30,8 @@
             padding-top: 30px;
             background: unset;
         }
+
+       
        
     }
 
@@ -42,6 +44,10 @@
             margin-top: 20px;
             @media (min-width: 768px) {
             }
+
+            @media (min-width: 1000px) and (max-width: 1439px) {
+            margin-left: 40px;
+         }
         }
 
         @media (min-width: 1024px) {

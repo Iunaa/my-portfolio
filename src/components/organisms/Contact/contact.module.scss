@@ -3,7 +3,7 @@
     margin-top: 60px;
     position: relative;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         margin-left: 162px;
         margin-right: 161px;
     }
@@ -12,6 +12,7 @@
         display: flex;
         margin-right: 135px;
         margin-left: 145px;
+        margin-top: 223px;
     }
 
     &__Container {
@@ -24,13 +25,11 @@
 
     &__title {
         margin-bottom: 20px;
-        @media(min-width: 768px){
+        @media (min-width: 768px) {
             font-size: 72px;
             font-weight: 700;
             line-height: 72px;
             letter-spacing: -2.045px;
-            
-
         }
         @media (min-width: 1440px) {
             text-align: left;
@@ -48,19 +47,26 @@
         line-height: 28px;
         padding: 0 16px;
         text-align: center;
+
+        @media (min-width: 1440px){
+            text-align: justify;
+        }
     }
 
     &__line3 {
-    position: absolute;
-    left: 0;
-    bottom: -70px;
+        position: absolute;
+        left: 0;
+        bottom: -70px;
 
-    @media(min-width: 1440px){
-        left: -140px;
+        @media (min-width: 768px) {
+            left: -160px;
+            bottom: -140px;
+        }
+
+        @media (min-width: 1440px) {
+            left: -140px;
+        }
     }
-    
-}
-
 
     &__Form {
         position: relative;
@@ -138,9 +144,14 @@
     border-color: rgba(78, 225, 160, 1);
     text-decoration: unset;
 
+    @media (min-width: 768px){
+        margin-right: 180px;
+    }
+
     @media (min-width: 1440px) {
         margin-top: 32px;
         margin-bottom: 92px;
+        margin-right: 150px;
     }
 }
 
@@ -154,10 +165,14 @@
     border-width: 1px;
     opacity: 0.5;
 
+    @media (min-width: 768px) {
+        margin-top: 20px;
+        max-width: 700px;
+    }
+
     @media (min-width: 1440px) {
-        max-width: 1110px;
+        max-width: 1240px;
         margin-top: 80px;
         margin-right: 100px;
     }
 }
-

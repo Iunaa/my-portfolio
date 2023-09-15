@@ -1,14 +1,14 @@
 import React from "react";
-import Style from "./hero.module.scss";
+import Styles from "./hero.module.scss";
 
 export const Hero = () => {
     return (
         <>
-            <div className={Style.Hero}>
-                <div className={Style.Hero__container}>
-                    <picture className={Style.Hero__picture}>
+            <div className={Styles.Hero}>
+                <div className={Styles.Hero__container}>
+                    <picture className={Styles.Hero__picture}>
                         <img
-                            className={Style.Hero__photo}
+                            className={Styles.Hero__photo}
                             src="/images/photo.png"
                         />
                         {/* <img
@@ -17,20 +17,20 @@ export const Hero = () => {
                         /> */}
                     </picture>
                 </div>
-                <img className={Style.Hero__lines} src="/images/Group26.png" />
-                <img className={Style.Hero__Oval} src="/images/circle.svg" />
-                <div className={Style.Hero__introduction}>
-                    <h1 className={Style.Hero__title}>
+                <img className={Styles.Hero__lines} src="/images/Group26.png" />
+                <img className={Styles.Hero__Oval} src="/images/circle.svg" />
+                <div className={Styles.Hero__introduction}>
+                    <h1 className={Styles.Hero__title}>
                         Nice to meet you! I’m{" "}
-                        <u className={Style.Hero__underline}>Iuna de Leon</u>.
+                        <u className={Styles.Hero__underline}>Iuna de Leon</u>.
                     </h1>
-                    <p className={Style.Hero__paragraph}>
+                    <p className={Styles.Hero__paragraph}>
                         Based in Brazil, I’m a front-end developer passionate
                         about building accessible web apps that users love.
                     </p>
-                    <a className={Style.Hero__anchor}>contact me</a>
-                    <hr size="1" width="90%" align="center" />
+                    <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
+                <hr className={Styles.hr} size="1" width="90%" align="center" />
             </div>
         </>
     );
