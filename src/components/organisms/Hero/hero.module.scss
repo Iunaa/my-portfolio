@@ -11,6 +11,7 @@
         display: flex;
         align-items: flex-end;
         flex-direction: row-reverse;
+       
     }
 
     @media (min-width: 1000px) and (max-width: 1439px) {
@@ -33,16 +34,16 @@
         );
 
         @media (min-width: 768px) {
-            width: 550px;
-            height: 600px;
+            width: 322px;
+            height: 613px;
             margin-bottom: 40px;
             background-color: rgba(36, 36, 36, 1);
         }
 
-        @media (min-width: 1140px) {
-            width: 638px;
+        @media (min-width: 1440px) {
+            width: 430px;
             height: 650px;
-            margin-bottom: 103px;
+            margin-bottom: 113px;
             align-items: flex-end;
             margin-right: 132px;
             background-color: rgba(36, 36, 36, 1);
@@ -205,7 +206,7 @@
         border-style: solid;
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
-        padding-bottom: 5px;
+        padding-bottom: 12px;
         text-align: center;
 
         @media (min-width: 768px) {

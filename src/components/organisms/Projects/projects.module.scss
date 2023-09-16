@@ -5,6 +5,7 @@
     padding-left: 16px;
     padding-right: 16px;
     align-items: center;
+       
     
     &__projects {
         display: flex;
@@ -56,21 +57,64 @@
 
     &__bitmap{
         @media (min-width: 1440px){
-            opacity: 0.4;
             margin-bottom: 69px;
+            &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
         }
     }
 
     &__bitmap2{
         @media (min-width: 1440px){
-            opacity: 0.4;
+           
             margin-bottom: 69px;
+             &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
         }
     }
 
     &__bitmap3{
         @media (min-width: 1440px){
             margin-bottom: 69px;
+             &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__bitmap4{
+        @media (min-width: 1440px){
+            margin-bottom: 69px;
+             &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__bitmap5{
+        @media (min-width: 1440px){
+            margin-bottom: 69px;
+             &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__bitmap6{
+        @media (min-width: 1440px){
+            margin-bottom: 69px;
+            
+             &:hover{
+                opacity: 0.5;
+                cursor: pointer;
+                
+            }
         }
     }
 
@@ -83,7 +127,7 @@
         border-style: solid;
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
-        padding-bottom: 5px;
+        padding-bottom: 12px;
 
         @media (min-width: 768px){
             margin-top: 11px;
@@ -127,6 +171,7 @@
     &__img{
         width: 100%;
         height: 253px;
+         margin-top: -30px;
 
         @media(min-width: 768px){
             width: 345px;

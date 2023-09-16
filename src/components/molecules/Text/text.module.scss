@@ -6,38 +6,48 @@
     align-items: flex-end;
     padding-right: 16px;
 
-    @media (min-width: 768px){
-        padding-left: 16px;
-
+    @media (min-width: 768px) {
     }
 
     @media (min-width: 1440px) {
         position: relative;
-        
     }
-    
 
-     &__text {
+    &__HTML {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 2.286px;
         display: flex;
         flex-direction: row;
         margin-top: 20px;
         gap: 18px;
     }
-        
-    &__view{
+
+    &__CSS {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 2.286px;
+    }
+
+    &__view {
         display: flex;
         gap: 32px;
         margin-top: 20px;
+        padding-top: 20px;
 
         @media (min-width: 1440px) {
             position: absolute;
-            display: none;
+            top: 2120px;
+            align-items: center;
+            position: absolute;
+            flex-direction: column;
+            right: 350px;
         }
-      
-        
-    }  
+    }
 
-    &__project{
+    &__project {
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
@@ -46,18 +56,18 @@
         border-style: solid;
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 
-    &__code{
+    &__code {
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
         letter-spacing: 2.286px;
-            border-width: 0 0 2px 0;
+        border-width: 0 0 2px 0;
         border-style: solid;
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 }

@@ -29,7 +29,7 @@ export const Projects = () => {
                         <Text />
                     </div>
 
-                    <div className={styles.Container__bitmap2}>
+                     <div className={styles.Container__bitmap2}>
                         <img
                             className={styles.Container__img}
                             src="/images/bitmap2.png"
@@ -78,9 +78,9 @@ export const Projects = () => {
                         />
                         <h2 className={styles.Container__title}>
                             ART GALLERY SHOWCASE
-                        </h2>
+                        </h2> 
                         <Text2 />
-                    </div>
+                    </div> 
                 </div>
             </div>
         </>

@@ -11,5 +11,9 @@
 
     @media (min-width: 1440px){
          gap: 30px;
+
+        &:hover {
+                color: rgba(78, 225, 160, 1);
+            }
     }
 }

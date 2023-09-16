@@ -11,10 +11,7 @@ export const Hero = () => {
                             className={Styles.Hero__photo}
                             src="/images/photo.png"
                         />
-                        {/* <img
-                            className={Style.Hero__photo2}
-                            src="/images/photo2.png"
-                        /> */}
+            
                     </picture>
                 </div>
                 <img className={Styles.Hero__lines} src="/images/Group26.png" />
@@ -30,7 +27,7 @@ export const Hero = () => {
                     </p>
                     <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
-                <hr className={Styles.hr} size="1" width="90%" align="center" />
+                
             </div>
         </>
     );

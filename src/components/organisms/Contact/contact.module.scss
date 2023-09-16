@@ -37,6 +37,7 @@
             font-weight: 700;
             line-height: 88px;
             letter-spacing: -2.5px;
+            margin-left: 5px;
         }
     }
 
@@ -48,7 +49,7 @@
         padding: 0 16px;
         text-align: center;
 
-        @media (min-width: 1440px){
+        @media (min-width: 1440px) {
             text-align: justify;
         }
     }
@@ -77,30 +78,47 @@
         padding: 0 16px;
     }
 
+    &__labelName {
+        margin-left: 20px;
+    }
+
+    &__labelEmail {
+        margin-left: 20px;
+    }
+
+    &__labelMessage {
+        margin-left: 20px;
+    }
+
     &__Name {
         width: 100%;
         border: 0;
         text-align: left;
+        text-transform: uppercase;
         border-bottom: 2px solid rgba(255, 255, 255, 0.281);
         outline: 0;
-        font-size: 1.3rem;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.281);
         padding: 7px 0;
         background: transparent;
         transition: border-color 0.2s;
+        height: 50px;
     }
 
     &__Email {
         width: 100%;
         border: 0;
         text-align: left;
+        text-transform: uppercase;
         border-bottom: 2px solid rgba(255, 255, 255, 0.281);
         outline: 0;
-        font-size: 1.3rem;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.281);
         padding: 7px 0;
         background: transparent;
         transition: border-color 0.2s;
+        height: 50px;
+        margin-top: 32px;
     }
 
     &__Message {
@@ -108,11 +126,13 @@
         border: 0;
         height: 107px;
         text-align: left;
+        text-transform: uppercase;
         border-bottom: 2px solid rgba(255, 255, 255, 0.281);
         outline: 0;
-        font-size: 1.3rem;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.281);
         padding: 7px 0;
+        margin-top: 32px;
         background: transparent;
         transition: border-color 0.2s;
     }
@@ -126,6 +146,9 @@
         padding: 7px 0;
         background: transparent;
         transition: border-color 0.2s;
+        & input::placeholder {
+            color: white;
+        }
     }
 }
 .anchor {
@@ -139,12 +162,13 @@
     letter-spacing: 2.286px;
     margin-right: 18px;
     margin-bottom: 87px;
+    color: rgba(255, 255, 255, 1);
     border-width: 0 0 2px 0;
     border-style: solid;
     border-color: rgba(78, 225, 160, 1);
-    text-decoration: unset;
+    padding-bottom: 12px;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         margin-right: 180px;
     }
 
@@ -152,6 +176,10 @@
         margin-top: 32px;
         margin-bottom: 92px;
         margin-right: 150px;
+
+        &:hover {
+            color: rgba(78, 225, 160, 1);
+        }
     }
 }
 
@@ -171,7 +199,7 @@
     }
 
     @media (min-width: 1440px) {
-        max-width: 1240px;
+        max-width: 1180px;
         margin-top: 80px;
         margin-right: 100px;
     }

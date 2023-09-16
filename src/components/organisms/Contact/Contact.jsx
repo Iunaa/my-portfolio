@@ -20,33 +20,42 @@ export const Contact = () => {
                         <div className={styles.Contact__Name}>
                             <label className={styles.Contact__labelName}>
                                 Name
+                                <input
+                                    required
+                                    type="text"
+                                    placeholder=""
+                                    className={styles.Contact__Field}
+                                />
                             </label>
-                            <input
-                                type="text"
-                                className={styles.Contact__Field}
-                            />
                         </div>
                         <div className={styles.Contact__Email}>
                             <label className={styles.Contact__labelEmail}>
                                 Email
+                                <input
+                                    required
+                                    type="email"
+                                    placeholder=""
+                                    className={styles.Contact__Field}
+                                />
                             </label>
-                            <input
-                                type="email"
-                                className={styles.Contact__Field}
-                            />
                         </div>
                         <div className={styles.Contact__Message}>
                             <label className={styles.Contact__labelMessage}>
                                 Message
+                                <input
+                                    required
+                                    type="text"
+                                    placeholder=""
+                                    className={styles.Contact__Field}
+                                />
                             </label>
-                            <input
-                                type="text"
-                                className={styles.Contact__Field}
-                            />
                         </div>
                     </div>
                 </div>
-                <img className={styles.Contact__line3} src="/images/line3.png" />
+                <img
+                    className={styles.Contact__line3}
+                    src="/images/line3.png"
+                />
             </div>
             <a className={styles.anchor}>SEND MESSAGE</a>
 

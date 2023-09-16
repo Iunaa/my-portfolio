@@ -10,16 +10,14 @@ import { Projects } from "@/components/organisms/Projects/Projects";
 
 export default function Home() {
   return (
-    <>
-    <AboveTheFold/>
-    <Experience/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
-    
-    
-     
-      
-    </>
-  )
+      <>
+          <div className="container">
+              <AboveTheFold />
+              <Experience />
+              <Projects />
+              <Contact />
+              <Footer />
+          </div>
+      </>
+  );
 }

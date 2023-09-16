@@ -6,8 +6,9 @@ import { Hero } from "../Hero/Hero";
 export const AboveTheFold = () => {
     return (
         <section className={style.aboveTheFold}>
-            <Header/>
-            <Hero/>
+            <Header />
+            <Hero />
+            <hr  size="1" width="100%" align="center" />
         </section>
     );
 };
