@@ -1,12 +1,21 @@
-.Icons{
-        display: flex;
-        padding-top: 20px;
-        width: 200px;
-        height: 400px;
-        background: linear-gradient(
-        180deg,
-        rgba(36, 36, 36, 0) 0.65%,
-        #242424 100%
-        );
+.container {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    cursor: pointer;
 
+    @media (min-width: 768px) {
+        gap: 30px;
+    }
+
+    @media (min-width: 1440px) {
+        gap: 30px;
+
+        &__img {
+            &:hover {
+                filter: invert(68%) sepia(72%) saturate(336%) hue-rotate(101deg)
+                    brightness(98%) contrast(91%);
+            }
+        }
+    }
 }

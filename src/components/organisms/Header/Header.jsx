@@ -1,19 +1,16 @@
-import style from "./header.module.scss";
-import {Icons} from '../../molecules/Icons/Icons';
+import { Icons } from "@/components/molecules/Icons/Icons";
+import Style from "./header.module.scss";
 
 export const Header = () => {
     return (
         <>
-            <div className={style.header}>
-                <div className={style.header__container}>
-                    <h1
-                        className={`${style.header__container__title} typography--body`}
-                    >
+            <div className={Style.header}>
+                <div className={Style.header__container}>
+                    <h1 className={`${Style.header__title} typography--body`}>
                         IunaLeon
                     </h1>
 
-                    <Icons/>
-                   
+                    <Icons />
                 </div>
             </div>
         </>

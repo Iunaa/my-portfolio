@@ -1,16 +1,19 @@
-import { Header } from "@/components/organisms/Header/Header";
-import { Hero } from "@/components/organisms/Hero/Hero";
-
-
-
+import { AboveTheFold } from "@/components/organisms/Above_the_fold/AboveTheFold";
+import { Contact } from "@/components/organisms/Contact/Contact";
+import { Experience } from "@/components/organisms/Experience/Experience";
+import { Footer } from "@/components/organisms/Footer/Footer";
+import { Projects } from "@/components/organisms/Projects/Projects";
 
 export default function Home() {
-  return (
-    <>
-    <Header/>
-    
-     
-      
-    </>
-  )
+    return (
+        <>
+            <div className="container">
+                <AboveTheFold />
+                <Experience />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
+        </>
+    );
 }

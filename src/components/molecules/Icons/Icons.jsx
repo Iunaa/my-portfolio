@@ -1,18 +1,31 @@
-import React from 'react'
-import Style from '../Icons/icons.module.scss';
-import { Icon_Git } from '@/components/atoms/Icon_Git/Icon_Git';
-import { Icon_LinkedIn } from '@/components/atoms/Icon_LinkedIn/Icon_LinkedIn';
-import { Icon_desconhecido } from '@/components/atoms/Icon_Desconhecido/Icon_Desconhecido';
-import { Icon_Twiter } from '@/components/atoms/Icon_Twiter/Icon_Twiter';
+import React from "react";
+import SocialMedia from "../../atoms/SocialMedia/SocialMedia";
+import Styles from "./icons.module.scss";
 
-export const Icons = () => {
-  return (
-      <div className={Style.Icons}>
-        <Icon_Git/>
-        <Icon_desconhecido/>
-        <Icon_LinkedIn/>
-        <Icon_Twiter/>
-   
-      </div>
-  );
+function Icons() {
+    return (
+        <div className={Styles.container}>
+            <SocialMedia
+                className={Styles.img}
+                href="https://github.com/Iunaa"
+                src="/images/git.svg"
+            />
+
+            <SocialMedia
+                className={Styles.img}
+                href="#"
+                src="/images/desconhecido.svg"
+            />
+
+            <SocialMedia
+                className={Styles.img}
+                href="https://www.linkedin.com/in/iuna-de-leon-8519b2221/"
+                src="/images/linkedIn.svg"
+            />
+
+            <SocialMedia href="#" src="/images/twiter.svg" />
+        </div>
+    );
 }
+
+export { Icons };
