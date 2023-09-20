@@ -15,7 +15,7 @@
 
         @media (min-width: 768px) {
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: baseline;
             margin-top: -20px;
             margin-bottom: -20px;
@@ -23,6 +23,7 @@
 
         @media (min-width: 1440px) {
             margin-left: 47px;
+            justify-content: space-between;
         }
     }
 

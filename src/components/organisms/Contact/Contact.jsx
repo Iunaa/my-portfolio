@@ -64,7 +64,7 @@ export const Contact = () => {
             </div>
             <a className={Styles.anchor}>SEND MESSAGE</a>
 
-            <hr />
+            <hr className={Styles.Container__hr} />
         </>
     );
 };

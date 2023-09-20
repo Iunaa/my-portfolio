@@ -1,17 +1,13 @@
 import React from "react";
 import Styles from "../Projects/projects.module.scss";
-import { Text } from "../../molecules/Text/Text";
-import { Text2 } from "../../molecules/Text2/Text2";
+
 
 export const Projects = () => {
     return (
         <>
             <div className={Styles.Container}>
                 <div className={Styles.Container__projects}>
-                    
-                    <h1 className={Styles.Container__title1}>
-                        Projects
-                    </h1>
+                    <h1 className={Styles.Container__title1}>Projects</h1>
                     <a className={Styles.Container__anchor} href="#">
                         CONTACT ME
                     </a>
@@ -26,10 +22,19 @@ export const Projects = () => {
                         <h2 className={Styles.Container__title}>
                             DESIGN PORTFOLIO
                         </h2>
-                        <Text />
+                        <div className={Styles.Content}>
+                            <p className={Styles.Content__HTML}>HTML</p>
+                            <p className={Styles.Content__CSS}>CSS</p>
+                        </div>
+                        <div className={Styles.Content__view}>
+                            <p className={Styles.Content__project}>
+                                VIEW PROJECT
+                            </p>
+                            <p className={Styles.Content__code}>VIEW CODE</p>
+                        </div>
                     </div>
 
-                     <div className={Styles.Container__bitmap2}>
+                    <div className={Styles.Container__bitmap}>
                         <img
                             className={Styles.Container__img}
                             src="/images/bitmap2.png"
@@ -37,10 +42,19 @@ export const Projects = () => {
                         <h2 className={Styles.Container__title}>
                             E-LEARNING LANDING PAGE
                         </h2>
-                        <Text />
+                        <div className={Styles.Content}>
+                            <p className={Styles.Content__HTML}>HTML</p>
+                            <p className={Styles.Content__CSS}>CSS</p>
+                        </div>
+                        <div className={Styles.Content__view}>
+                            <p className={Styles.Content__project}>
+                                VIEW PROJECT
+                            </p>
+                            <p className={Styles.Content__code}>VIEW CODE</p>
+                        </div>
                     </div>
 
-                    <div className={Styles.Container__bitmap3}>
+                    <div className={Styles.Container__bitmap}>
                         <img
                             className={Styles.Container__img}
                             src="/images/bitmap3.png"
@@ -48,9 +62,19 @@ export const Projects = () => {
                         <h2 className={Styles.Container__title}>
                             TODO WEB APP
                         </h2>
-                        <Text2 />
+                        <div className={Styles.Content}>
+                            <p className={Styles.Content__HTML}>HTML</p>
+                            <p className={Styles.Content__CSS}>CSS</p>
+                            <p className={Styles.Content__JS}>JAVASCRIPT</p>
+                        </div>
+                        <div className={Styles.Content__view}>
+                            <p className={Styles.Content__project}>
+                                VIEW PROJECT
+                            </p>
+                            <p className={Styles.Content__code}>VIEW CODE</p>
+                        </div>
                     </div>
-                    <div className={Styles.Container__bitmap4}>
+                    <div className={Styles.Container__bitmap}>
                         <img
                             className={Styles.Container__img}
                             src="/images/bitmap4.png"
@@ -58,29 +82,58 @@ export const Projects = () => {
                         <h2 className={Styles.Container__title}>
                             ENTERTAINMENT WEB APP
                         </h2>
-                        <Text2 />
+                        <div className={Styles.Content}>
+                            <p className={Styles.Content__HTML}>HTML</p>
+                            <p className={Styles.Content__CSS}>CSS</p>
+                            <p className={Styles.Content__JS}>JAVASCRIPT</p>
+                        </div>
+                        <div className={Styles.Content__view}>
+                            <p className={Styles.Content__project}>
+                                VIEW PROJECT
+                            </p>
+                            <p className={Styles.Content__code}>VIEW CODE</p>
+                        </div>
                     </div>
-                    <div className={Styles.Container__bitmap5}>
+                    <div className={Styles.Container__bitmap}>
                         <img
                             className={Styles.Container__img}
                             src="/images/bitmap5.png"
                         />
-                        <h2 className={Styles.Container__title}>
-                            MEMORY GAME
-                        </h2>
-                        <Text2 />
+                        <h2 className={Styles.Container__title}>MEMORY GAME</h2>
+                        <div className={Styles.Content}>
+                            <p className={Styles.Content__HTML}>HTML</p>
+                            <p className={Styles.Content__CSS}>CSS</p>
+                            <p className={Styles.Content__JS}>JAVASCRIPT</p>
+                        </div>
+                        <div className={Styles.Content__view}>
+                            <p className={Styles.Content__project}>
+                                VIEW PROJECT
+                            </p>
+                            <p className={Styles.Content__code}>VIEW CODE</p>
+                        </div>
                     </div>
-
-                    <div className={Styles.Container__bitmap6}>
+                    <div className={Styles.Container__bitmap}>
                         <img
                             className={Styles.Container__img}
                             src="/images/bitmap6.png"
                         />
-                        <h2 className={Styles.Container__title}>
-                            ART GALLERY SHOWCASE
-                        </h2> 
-                        <Text2 />
-                    </div> 
+                        <div className={Styles.allContent}>
+                            <h2>ART GALLERY SHOWCASE</h2>
+                            <div className={Styles.Content}>
+                                <p className={Styles.Content__HTML}>HTML</p>
+                                <p className={Styles.Content__CSS}>CSS</p>
+                                <p className={Styles.Content__JS}>JAVASCRIPT</p>
+                            </div>
+                            <div className={Styles.Content__view}>
+                                <p className={Styles.Content__project}>
+                                    VIEW PROJECT
+                                </p>
+                                <p className={Styles.Content__code}>
+                                    VIEW CODE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
