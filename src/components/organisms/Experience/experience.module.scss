@@ -1,28 +1,25 @@
 .experience {
     margin-top: 40px;
     position: relative;
-    
-   
-    
-    
 
-    @media(min-width: 768px){
+    @media (min-width: 768px) {
         display: grid;
         margin-bottom: 100px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        padding: 0 32px;
+        // padding: 0 12px;
         border: 0;
-        margin-top: 150px;
+        padding-top: 52px;
     }
 
-    @media (min-width: 1440px){
+    @media (min-width: 1440px) {
         margin-bottom: 140px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         padding: 0 170px;
         border: 0;
+        margin-top: 80px;
     }
 
     &__title {
@@ -34,13 +31,10 @@
         gap: 24px;
         color: white;
 
-        @media(min-width: 768px){
+        @media (min-width: 768px) {
             text-align: left;
             font-size: 48px;
-            
         }
-
-      
     }
 
     &__time {
@@ -48,28 +42,23 @@
         text-align: center;
         font-weight: 500;
         line-height: 26px;
-        margin-top: 14px;
         margin-bottom: 40px;
-    
 
-       @media(min-width: 768px){
-       text-align: left;
-       font-size: 18px;
-       }
-       @media(min-width: 1440px){
-       text-align: left;
-       }
+        @media (min-width: 768px) {
+            text-align: left;
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            text-align: left;
+        }
     }
 
     &__line2 {
-    position: absolute;
-    right: 0%;
-    bottom: -90px;
-    
+        position: absolute;
+        right: 0%;
+        bottom: -90px;
+    }
 }
-}
-
-
 
 .hr {
     display: block;
@@ -81,7 +70,7 @@
     border-width: 1px;
     opacity: 0.5;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         margin-top: 10px;
         display: none;
     }

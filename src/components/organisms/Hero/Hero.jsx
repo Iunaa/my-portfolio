@@ -11,7 +11,6 @@ export const Hero = () => {
                             className={Styles.Hero__photo}
                             src="/images/photo.png"
                         />
-            
                     </picture>
                 </div>
                 <img className={Styles.Hero__lines} src="/images/Group26.png" />
@@ -19,7 +18,7 @@ export const Hero = () => {
                 <div className={Styles.Hero__introduction}>
                     <h1 className={Styles.Hero__title}>
                         Nice to meet you! I’m{" "}
-                        <u className={Styles.Hero__underline}>Iuna de Leon</u>.
+                        <span className={Styles.Hero__title_highlight}>Iuna de Leon</span>.
                     </h1>
                     <p className={Styles.Hero__paragraph}>
                         Based in Brazil, I’m a front-end developer passionate
@@ -27,8 +26,8 @@ export const Hero = () => {
                     </p>
                     <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
-                
             </div>
+            <hr align="center" />
         </>
     );
 };

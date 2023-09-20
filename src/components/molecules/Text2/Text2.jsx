@@ -1,17 +1,17 @@
 import React from "react";
-import styles from "../Text2/text2.module.scss";
+import Styles from "../Text2/text2.module.scss";
 
 export const Text2 = () => {
     return (
         <>
-            <div className={styles.Container__text}>
-                <p className={styles.Container__HTML}>HTML</p>
-                <p className={styles.Container__CSS}>CSS</p>
-                <p className={styles.Container__JS}>JAVASCRIPT</p>
+            <div className={Styles.Container__text}>
+                <p className={Styles.Container__HTML}>HTML</p>
+                <p className={Styles.Container__CSS}>CSS</p>
+                <p className={Styles.Container__JS}>JAVASCRIPT</p>
             </div>
-            <div className={styles.Container__view}>
-                <p className={styles.Container__project}>VIEW PROJECT</p>
-                <p className={styles.Container__code}>VIEW CODE</p>
+            <div className={Styles.Container__view}>
+                <p className={Styles.Container__project}>VIEW PROJECT</p>
+                <p className={Styles.Container__code}>VIEW CODE</p>
             </div>
         </>
     );

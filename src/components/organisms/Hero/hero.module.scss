@@ -11,7 +11,7 @@
         display: flex;
         align-items: flex-end;
         flex-direction: row-reverse;
-       
+        padding-bottom: 30px;
     }
 
     @media (min-width: 1000px) and (max-width: 1439px) {
@@ -35,7 +35,7 @@
 
         @media (min-width: 768px) {
             width: 322px;
-            height: 613px;
+            height: 663px;
             margin-bottom: 40px;
             background-color: rgba(36, 36, 36, 1);
         }
@@ -65,8 +65,8 @@
         z-index: -1;
 
         @media (min-width: 768px) {
-            right: 75%;
-            bottom: 430px;
+            right: 65%;
+            bottom: 510px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
@@ -80,7 +80,7 @@
     &__Oval {
         position: absolute;
         left: 85%;
-        top: 37%;
+        top: 34.5%;
 
         @media (min-width: 768px) {
             left: 92%;
@@ -103,10 +103,11 @@
 
         @media (min-width: 768px) {
             align-items: flex-start;
-            padding-left: 32px;
+
             position: absolute;
             right: 60px;
             margin: 0 auto;
+            margin-top: 20px;
         }
 
         @media (min-width: 1440px) {
@@ -156,11 +157,13 @@
             max-width: 709px;
             margin-left: 30px;
         }
+        &_highlight{        //utilizando  "_" porque o js não aceita usar o "--" na variável Styles
+        text-decoration: underline;
+        text-decoration-color: rgb(78, 225, 160);
+        }
     }
 
-    &__underline {
-        text-decoration-color: rgb(78, 225, 160);
-    }
+    
 
     &__paragraph {
         font-family: "Space Grotesk";
@@ -178,13 +181,13 @@
             padding-bottom: 34px;
             padding-left: 0px;
             padding-right: 240px;
-            margin-top: 180px;
+            margin-top: 200px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
             font-size: 18px;
             text-align: left;
-            margin-top: 133px;
+            // margin-top: 133px;
             margin-left: 30px;
             padding-bottom: 34px;
         }
@@ -199,22 +202,26 @@
 
     &__anchor {
         font-family: "Space Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
         text-transform: uppercase;
         color: white;
         margin-top: 24px;
         border-width: 0 0 2px 0;
         border-style: solid;
         border-color: rgba(78, 225, 160, 1);
-        margin-bottom: 80px;
-        padding-bottom: 12px;
+        margin-bottom: 60px;
+        padding-bottom: 10px;
         text-align: center;
 
         @media (min-width: 768px) {
-            margin-top: 10px;
+            margin-top: 4px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
-            margin-top: 70px;
             margin-left: 30px;
         }
         @media (min-width: 1440px) {

@@ -38,12 +38,15 @@
         padding-top: 20px;
 
         @media (min-width: 1440px) {
+
+            &:hover{
             position: absolute;
             top: 2120px;
             align-items: center;
             position: absolute;
             flex-direction: column;
             right: 350px;
+        }
         }
     }
 

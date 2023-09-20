@@ -1,0 +1,8 @@
+.anchor {
+    @media (min-width: 1440px) {
+        &:hover {
+            filter: invert(68%) sepia(72%) saturate(336%) hue-rotate(101deg)
+                brightness(98%) contrast(91%);
+        }
+    }
+}

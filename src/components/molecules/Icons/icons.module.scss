@@ -1,19 +1,21 @@
-.container{
+.container {
     display: flex;
     margin-top: 20px;
     gap: 20px;
     cursor: pointer;
 
-    @media(min-width: 768px){
+    @media (min-width: 768px) {
         gap: 30px;
-        
     }
 
-    @media (min-width: 1440px){
-         gap: 30px;
+    @media (min-width: 1440px) {
+        gap: 30px;
 
-        &:hover {
-                color: rgba(78, 225, 160, 1);
+        &__img {
+            &:hover {
+                filter: invert(68%) sepia(72%) saturate(336%) hue-rotate(101deg)
+                    brightness(98%) contrast(91%);
             }
+        }
     }
 }

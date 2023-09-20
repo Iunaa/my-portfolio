@@ -1,18 +1,24 @@
 import React from "react";
 import SocialMedia from "../../atoms/SocialMedia/SocialMedia";
-import styles from "./icons.module.scss";
+import Styles from "./icons.module.scss";
 
 function Icons() {
     return (
-        <div className={styles.container}>
+        <div className={Styles.container}>
             <SocialMedia
+                className={Styles.img}
                 href="https://github.com/Iunaa"
                 src="/images/git.svg"
             />
 
-            <SocialMedia href="#" src="/images/desconhecido.svg" />
+            <SocialMedia
+                className={Styles.img}
+                href="#"
+                src="/images/desconhecido.svg"
+            />
 
             <SocialMedia
+                className={Styles.img}
                 href="https://www.linkedin.com/in/iuna-de-leon-8519b2221/"
                 src="/images/linkedIn.svg"
             />
