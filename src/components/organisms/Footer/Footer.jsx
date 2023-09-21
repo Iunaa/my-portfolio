@@ -5,12 +5,12 @@ import { Icons } from "@/components/molecules/Icons/Icons";
 export const Footer = () => {
     return (
         <>
-            <div className={Styles.footer}>
+            <footer className={Styles.footer}>
                 <div className={Styles.footer__Container}>
-                    <h1 className={Styles.footer__title}>IunaLeon</h1>
+                    <h4 className={Styles.footer__title}>IunaLeon</h4>
                     <Icons />
                 </div>
-            </div>
+            </footer>
         </>
     );
 };

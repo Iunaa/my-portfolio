@@ -27,7 +27,7 @@ export const Hero = () => {
                     <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
             </div>
-            <hr align="center" />
+            <hr className={Styles.Hero__hr} align="center" />
         </>
     );
 };

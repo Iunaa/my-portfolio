@@ -22,8 +22,8 @@
         background: rgb(21, 21, 21);
         background: linear-gradient(
             180deg,
-            rgba(21, 21, 21, 1) 84%,
-            rgba(36, 36, 36, 1) 84%
+            rgba(21, 21, 21, 1) 83%,
+            rgba(36, 36, 36, 1) 83%
         );
 
         @media (min-width: 768px) {
@@ -39,8 +39,8 @@
             background: rgb(21, 21, 21);
             background: linear-gradient(
                 180deg,
-                rgba(21, 21, 21, 1) 82%,
-                rgba(36, 36, 36, 1) 82%
+                rgba(21, 21, 21, 1) 81%,
+                rgba(36, 36, 36, 1) 81%
             );
         }
     }
@@ -53,7 +53,6 @@ body[data-stuck="true"] {
 }
 
 a {
-    
     color: white;
     text-decoration: none;
 
