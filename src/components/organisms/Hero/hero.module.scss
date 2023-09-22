@@ -89,6 +89,7 @@
 
         @media (min-width: 1440px) {
             left: 54%;
+            top: 64%;
         }
     }
 
@@ -152,7 +153,7 @@
             font-weight: 700;
             line-height: 88px;
             letter-spacing: -2.5px;
-            padding-top: 18px;
+           
             max-width: 709px;
             margin-left: 30px;
         }
@@ -192,7 +193,7 @@
         @media (min-width: 1440px) {
             font-size: 18px;
             text-align: left;
-            margin-top: 173px;
+            margin-top: 153px;
             margin-left: 30px;
             padding-bottom: 34px;
             max-height: 84px;
@@ -227,7 +228,7 @@
             &:hover {
                 color: rgba(78, 225, 160, 1);
             }
-            margin-top: 70px;
+            margin-top: 50px;
             margin-left: 30px;
         }
     }

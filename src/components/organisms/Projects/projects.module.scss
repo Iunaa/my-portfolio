@@ -21,6 +21,11 @@
             gap: 295px;
         }
 
+        @media(min-width: 769px) and (max-width: 1439px){
+            margin-top: 15px;
+            gap: 305px;
+        }
+
         @media (min-width: 1440px) {
             display: flex;
             gap: 570px;
@@ -116,6 +121,9 @@
         @media (min-width: 768px) {
             max-width: 345px;
             height: 253px;
+        }
+        @media(min-width: 769px) and (max-width: 1439px){
+            max-width: 336px;
         }
 
         @media (min-width: 1440px) {

@@ -1,5 +1,5 @@
 .footer {
-    // margin-top: 39px;
+    margin-top: 39px;
     margin-bottom: 60px;
     // padding: 0 123px;
 
@@ -33,6 +33,10 @@
 
         @media (min-width: 768px) {
             margin-right: 365px;
+        }
+
+        @media (min-width: 1440px){
+            margin-right: 385px;
         }
     }
 }

@@ -61,6 +61,10 @@
         position: absolute;
         right: 0;
         bottom: -840px;
+
+        @media(min-width: 1440px){
+            bottom: -360px;
+        }
     }
 }
 
@@ -72,7 +76,7 @@
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    opacity: 0.5;
+    opacity: 1;
 
     @media (min-width: 768px) {
         margin-top: 10px;

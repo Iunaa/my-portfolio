@@ -12,7 +12,7 @@
         display: flex;
         margin-right: 135px;
         margin-left: 145px;
-        margin-top: 223px;
+        margin-top: 160px;
     }
 
     &__Container {
@@ -57,17 +57,22 @@
 
     &__line3 {
         position: absolute;
-        left: 0;
-        bottom: -70px;
+        left: -23px;
+        bottom: -4370px;
 
         @media (min-width: 768px) {
-            left: -190px;
-            bottom: -140px;
+            left: 0;
+            bottom: -2770px;
+        }
+
+        @media(min-width: 769px) and (max-width: 1439px){
+            left: 0;
+            bottom: -2790px;
         }
 
         @media (min-width: 1440px) {
-            left: -230px;
-            top: 310px;
+            left: 0px;
+            bottom: -3050px;
         }
     }
 
@@ -208,8 +213,8 @@
 
     @media (min-width: 1440px) {
         max-width: 1440px;
-        margin-right: 130px;
-        margin-left: 150px;
+        margin-right: 120px;
+        margin-left: 158px;
         opacity: 1;
     }
 }
