@@ -18,7 +18,11 @@ export const Hero = () => {
                 <div className={Styles.Hero__introduction}>
                     <h1 className={Styles.Hero__title}>
                         Nice to meet you! I’m{" "}
-                        <span className={Styles.Hero__title_highlight}>Iuna de Leon</span>.
+                        <span className={Styles.Hero__title_highlight}>
+                            Iuna 
+                            de Leon
+                        </span>
+                        .
                     </h1>
                     <p className={Styles.Hero__paragraph}>
                         Based in Brazil, I’m a front-end developer passionate
@@ -27,7 +31,7 @@ export const Hero = () => {
                     <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
             </div>
-            <hr align="center" />
+            <hr className={Styles.Hero__hr} align="center" />
         </>
     );
 };

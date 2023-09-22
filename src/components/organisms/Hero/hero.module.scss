@@ -35,7 +35,7 @@
 
         @media (min-width: 768px) {
             width: 322px;
-            height: 663px;
+            height: 613px;
             margin-bottom: 40px;
             background-color: rgba(36, 36, 36, 1);
         }
@@ -65,8 +65,8 @@
         z-index: -1;
 
         @media (min-width: 768px) {
-            right: 65%;
-            bottom: 510px;
+            right: 66%;
+            bottom: 480px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
@@ -74,7 +74,7 @@
         }
 
         @media (min-width: 1440px) {
-            bottom: 530px;
+            bottom: 570px;
         }
     }
     &__Oval {
@@ -84,12 +84,11 @@
 
         @media (min-width: 768px) {
             left: 92%;
-            top: 73%;
+            top: 71%;
         }
 
         @media (min-width: 1440px) {
-            left: 58%;
-            top: 470px;
+            left: 54%;
         }
     }
 
@@ -114,7 +113,7 @@
             align-items: flex-start;
             padding-left: 155px;
             padding-bottom: 260px;
-            right: 270px;
+            right: 480px;
         }
     }
 
@@ -153,17 +152,16 @@
             font-weight: 700;
             line-height: 88px;
             letter-spacing: -2.5px;
-            padding-top: 20px;
+            padding-top: 18px;
             max-width: 709px;
             margin-left: 30px;
         }
-        &_highlight{        //utilizando  "_" porque o js não aceita usar o "--" na variável Styles
-        text-decoration: underline;
-        text-decoration-color: rgb(78, 225, 160);
+        &_highlight {
+            //utilizando  "_" porque o js não aceita usar o "--" na variável Styles
+            text-decoration: underline;
+            text-decoration-color: rgb(78, 225, 160);
         }
     }
-
-    
 
     &__paragraph {
         font-family: "Space Grotesk";
@@ -181,7 +179,7 @@
             padding-bottom: 34px;
             padding-left: 0px;
             padding-right: 240px;
-            margin-top: 200px;
+            margin-top: 180px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
@@ -194,9 +192,10 @@
         @media (min-width: 1440px) {
             font-size: 18px;
             text-align: left;
-            margin-top: 133px;
+            margin-top: 173px;
             margin-left: 30px;
             padding-bottom: 34px;
+            max-height: 84px;
         }
     }
 
@@ -218,7 +217,7 @@
         text-align: center;
 
         @media (min-width: 768px) {
-            margin-top: 4px;
+            margin-top: 0px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
@@ -233,31 +232,23 @@
         }
     }
 
-    hr {
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
+    &__hr {
+        margin-left: 16px;
+        margin-right: 16px;
         border-width: 1px;
-        opacity: 0.5;
 
         @media (min-width: 768px) {
-            display: block;
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
-            margin-left: auto;
-            margin-right: auto;
-            border-style: inset;
+            margin-left: 1px;
+            margin-right: 1px;
             border-width: 1px;
             opacity: 0.5;
         }
 
         @media (min-width: 1440px) {
             max-width: 1110px;
-            margin-top: 140px;
-            margin-right: 100px;
+            margin-top: 10px;
+            margin-right: 165px;
+            margin-left: 165px;
             color: white;
         }
     }

@@ -15,56 +15,52 @@ export const Contact = () => {
                 </div>
 
                 <div className={Styles.Contact__Form}>
-                    <div>
+                    <form>
                         <div className={Styles.Contact__Name}>
-                            <form>
-                                <label className={Styles.Contact__labelName}>
-                                    Name
-                                    <input
-                                        required
-                                        type="text"
-                                        placeholder=""
-                                        className={Styles.Contact__Field}
-                                    />
-                                </label>
-                            </form>
+                            <label className={Styles.Contact__labelName}>
+                                Name
+                                <input
+                                    required
+                                    type="text"
+                                    placeholder=""
+                                    className={Styles.Contact__Field}
+                                />
+                            </label>
                         </div>
                         <div className={Styles.Contact__Email}>
-                            <form>
-                                <label className={Styles.Contact__labelEmail}>
-                                    Email
-                                    <input
-                                        required
-                                        type="email"
-                                        placeholder=""
-                                        className={Styles.Contact__Field}
-                                    />
-                                </label>
-                            </form>
+                            <label className={Styles.Contact__labelEmail}>
+                                Email
+                                <input
+                                    required
+                                    type="email"
+                                    placeholder=""
+                                    className={Styles.Contact__Field}
+                                />
+                            </label>
                         </div>
                         <div className={Styles.Contact__Message}>
-                            <form>
-                                <label className={Styles.Contact__labelMessage}>
-                                    Message
-                                    <input
-                                        required
-                                        type="text"
-                                        placeholder=""
-                                        className={Styles.Contact__Field}
-                                    />
-                                </label>
-                            </form>
+                            <label className={Styles.Contact__labelMessage}>
+                                Message
+                                <input
+                                    required
+                                    type="text"
+                                    placeholder=""
+                                    className={Styles.Contact__Field}
+                                />
+                            </label>
                         </div>
-                    </div>
+                        <button className={Styles.Contact__submit}>
+                            SEND MESSAGE
+                        </button>
+                    </form>
                 </div>
                 <img
                     className={Styles.Contact__line3}
                     src="/images/line3.png"
                 />
             </div>
-            <a className={Styles.anchor}>SEND MESSAGE</a>
 
-            <hr className={Styles.Container__hr} />
+            <hr className={Styles.hr} />
         </>
     );
 };
