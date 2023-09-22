@@ -6,22 +6,28 @@
     padding-right: 16px;
     align-items: center;
 
+    @media (min-width: 768px){
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     &__projects {
         display: flex;
-        width: 100%;
-        justify-content: space-between;
+        gap: 50px;
         margin-top: 80px;
 
         @media (min-width: 768px) {
             margin-top: 15px;
-            justify-content: space-between;
+            gap: 295px;
         }
 
         @media (min-width: 1440px) {
             display: flex;
-            justify-content: space-between;
+            gap: 570px;
         }
     }
+
+
 
     &__title1 {
         font-size: 40px;
@@ -41,7 +47,7 @@
             font-weight: 700;
             line-height: 88px;
             letter-spacing: -2.5px;
-            margin-left: 150px;
+            margin-left: 112px;
         }
     }
   
@@ -71,7 +77,7 @@
         padding-bottom: 12px;
 
         @media (min-width: 768px) {
-            margin-top: 11px;
+            margin-top: 21px;
         }
 
         @media (min-width: 1440px) {
@@ -114,7 +120,7 @@
 
         @media (min-width: 1440px) {
             position: relative;
-            max-width: 510px;
+            max-width: 500px;
             height: 400px;
         }
     }
@@ -134,7 +140,7 @@
 
     @media (min-width: 1440px) {
         position: relative;
-        padding-bottom: 69px;
+       
     }
     &__HTML {
         font-size: 18px;
@@ -165,18 +171,8 @@
         display: flex;
         gap: 32px;
         padding-top: 20px;
+        cursor: pointer;
 
-        @media (min-width: 1440px) {
-            display: none;
-            &:hover {
-                position: absolute;
-                top: 2120px;
-                color: rgba(78, 225, 160, 1);
-                align-items: center;
-                flex-direction: column;
-                right: 350px;
-            }
-        }
     }
 
     &__project {
@@ -189,6 +185,11 @@
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
         padding-bottom: 10px;
+        @media (min-width:1440px){
+            &:hover{
+                color: rgba(78, 225, 160, 1);
+            }
+        }
     }
 
     &__code {
@@ -201,5 +202,10 @@
         border-color: rgba(78, 225, 160, 1);
         margin-bottom: 80px;
         padding-bottom: 10px;
+        @media (min-width:1440px){
+            &:hover{
+                color: rgba(78, 225, 160, 1);
+            }
+        }
     }
 }

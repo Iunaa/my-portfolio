@@ -7,7 +7,7 @@ export const Footer = () => {
         <>
             <footer className={Styles.footer}>
                 <div className={Styles.footer__Container}>
-                    <h4 className={Styles.footer__title}>IunaLeon</h4>
+                    <h1 className={Styles.footer__title}>IunaLeon</h1>
                     <Icons />
                 </div>
             </footer>
