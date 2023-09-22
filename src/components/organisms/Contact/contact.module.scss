@@ -1,7 +1,7 @@
 .Contact {
     text-align: center;
     margin-top: 60px;
-    position: relative;
+    // position: relative;
 
     @media (min-width: 768px) {
         margin-left: 162px;
@@ -38,6 +38,7 @@
             line-height: 88px;
             letter-spacing: -2.5px;
             margin-left: 5px;
+            margin-bottom: 36px;
         }
     }
 
@@ -65,17 +66,19 @@
         }
 
         @media (min-width: 1440px) {
-            left: -170px;
+            left: -230px;
+            top: 310px;
         }
     }
 
     &__Form {
         position: relative;
         padding: 15px 0 0;
-        margin-top: 10px;
-        margin-bottom: 32px;
+        margin: 0 auto;
         width: 100%;
         padding: 0 16px;
+        max-width: 375px;
+        text-align: center;
     }
 
     &__labelName {
@@ -150,55 +153,63 @@
             color: white;
         }
     }
-}
-.anchor {
-    display: flex;
-    justify-content: flex-end;
-    width: fit-content;
-    margin-left: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 2.286px;
-    margin-right: 18px;
-    margin-bottom: 87px;
-    color: rgba(255, 255, 255, 1);
-    border-width: 0 0 2px 0;
-    border-style: solid;
-    border-color: rgba(78, 225, 160, 1);
-    padding-bottom: 10px;
 
-    @media (min-width: 768px) {
-        margin-right: 180px;
-    }
-
-    @media (min-width: 1440px) {
+    &__submit {
+        display: flex;
+        justify-content: flex-end;
+        width: fit-content;
+        margin-left: auto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
+        margin-right: 0px;
         margin-top: 32px;
-        margin-bottom: 92px;
-        margin-right: 150px;
+        margin-bottom: 87px;
+        color: rgba(255, 255, 255, 1);
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        border-color: rgba(78, 225, 160, 1);
+        padding-bottom: 10px;
 
-        &:hover {
-            color: rgba(78, 225, 160, 1);
+        @media (min-width: 768px) {
+        }
+
+        @media (min-width: 1440px) {
+            margin-bottom: 92px;
+            margin-right: 0px;
+
+            &:hover {
+                color: rgba(78, 225, 160, 1);
+            }
         }
     }
 }
 
 .hr {
-    
     margin-left: 16px;
     margin-right: 16px;
-    
+    border-width: 1px;
     opacity: 0.5;
 
     @media (min-width: 768px) {
-        margin-right: 31px;
-        margin-left: 31px;
-        
+        max-width: 768px;
+        margin-right: 1px;
+        margin-left: 1px;
+        // padding: 0 32px;
+        border-width: 1px;
+        opacity: 0.5;
+    }
+
+    @media (min-width: 769px) and (max-width: 1439px) {
+        margin-right: 11px;
+        margin-left: 1px;
     }
 
     @media (min-width: 1440px) {
-        margin-left: 165px;
-        margin-right: 165px;
-        
+        max-width: 1440px;
+        margin-right: 130px;
+        margin-left: 150px;
+        opacity: 1;
     }
 }
