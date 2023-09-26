@@ -45,7 +45,7 @@ export const Experience = () => {
                         3 Years Experience
                     </p>
                 </div>
-                <img className={Styles.experience__line2} src="/images/line2.png" />
+                {/* <img className={Styles.experience__line2} src="/images/line2.png" /> */}
             </div>
             <hr className={Styles.hr} size="1" width="90%" align="center" />
         </>

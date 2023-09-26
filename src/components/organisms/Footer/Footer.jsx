@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <>
             <footer className={Styles.footer}>
-                <div className={Styles.footer__Container}>
+                <div className={Styles.footer__containerGrey}>
                     <h1 className={Styles.footer__title}>IunaLeon</h1>
                     <Icons />
                 </div>

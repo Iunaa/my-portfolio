@@ -6,14 +6,16 @@ import { Projects } from "@/components/organisms/Projects/Projects";
 
 export default function Home() {
     return (
-        <>
-            <div className="container">
+        <div className="container">
+            <div className="container--black">
                 <AboveTheFold />
                 <Experience />
                 <Projects />
+            </div>
+            <div className="container--grey">
                 <Contact />
                 <Footer />
             </div>
-        </>
+        </div>
     );
 }

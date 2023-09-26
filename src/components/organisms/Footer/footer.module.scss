@@ -5,9 +5,10 @@
 
     @media (min-width: 768px) {
         margin-bottom: 30px;
+       
     }
 
-    &__Container {
+    &__containerGrey {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -17,11 +18,11 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: baseline;
+            
         }
 
         @media (min-width: 1440px) {
-            margin-left: 37px;
-            justify-content: space-around;
+            justify-content: space-between;
         }
     }
 
@@ -35,7 +36,7 @@
             margin-right: 365px;
         }
 
-        @media (min-width: 1440px){
+        @media (min-width: 1440px) {
             margin-right: 385px;
         }
     }

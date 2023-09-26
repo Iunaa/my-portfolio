@@ -13,8 +13,8 @@ export const Hero = () => {
                         />
                     </picture>
                 </div>
-                <img className={Styles.Hero__lines} src="/images/Group26.png" />
-                <img className={Styles.Hero__Oval} src="/images/circle.svg" />
+                {/* <img className={Styles.Hero__lines} src="/images/Group26.png" />
+                <img className={Styles.Hero__Oval} src="/images/circle.svg" /> */}
                 <div className={Styles.Hero__introduction}>
                     <h1 className={Styles.Hero__title}>
                         Nice to meet you! I’m{" "}

@@ -19,30 +19,30 @@
 
     html,
     body {
-        background: rgb(21, 21, 21);
-        background: linear-gradient(
-            180deg,
-            rgba(21, 21, 21, 1) 83%,
-            rgba(36, 36, 36, 1) 83%
-        );
+        // background: rgb(21, 21, 21);
+        // background: linear-gradient(
+        //     180deg,
+        //     rgba(21, 21, 21, 1) 83%,
+        //     rgba(36, 36, 36, 1) 83%
+        // );
 
-        @media (min-width: 768px) {
-            background: rgb(21, 21, 21);
-            background: linear-gradient(
-                180deg,
-                rgba(21, 21, 21, 1) 76%,
-                rgba(36, 36, 36, 1) 76%
-            );
-        }
+        // @media (min-width: 768px) {
+        //     background: rgb(21, 21, 21);
+        //     background: linear-gradient(
+        //         180deg,
+        //         rgba(21, 21, 21, 1) 76%,
+        //         rgba(36, 36, 36, 1) 76%
+        //     );
+        // }
 
-        @media (min-width: 1440px) {
-            background: rgb(21, 21, 21);
-            background: linear-gradient(
-                180deg,
-                rgba(21, 21, 21, 1) 83.5%,
-                rgba(36, 36, 36, 1) 83.5%
-            );
-        }
+        // @media (min-width: 1440px) {
+        //     background: rgb(21, 21, 21);
+        //     background: linear-gradient(
+        //         180deg,
+        //         rgba(21, 21, 21, 1) 83.5%,
+        //         rgba(36, 36, 36, 1) 83.5%
+        //     );
+        // }
     }
 
     line-height: 1;

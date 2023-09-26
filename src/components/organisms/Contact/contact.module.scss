@@ -1,25 +1,28 @@
 .Contact {
     text-align: center;
-    margin-top: 60px;
+    // margin-top: 60px;
     // position: relative;
-
+    padding-top: 60px;
+    margin: 0 auto;
     @media (min-width: 768px) {
-        margin-left: 162px;
-        margin-right: 161px;
+        max-width: 445px;
+        margin: 0 auto;
+        padding-top: 60px;
     }
 
     @media (min-width: 1440px) {
-        display: flex;
-        margin-right: 135px;
-        margin-left: 145px;
-        margin-top: 160px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 180px;
+        max-width: 1440px;
+        
     }
 
-    &__Container {
+    &__containerGrey {
         @media (min-width: 1440px) {
             display: flex;
             flex-direction: column;
-            margin-right: 222px;
+           
         }
     }
 
@@ -49,8 +52,18 @@
         line-height: 26px;
         padding: 0 16px;
         text-align: center;
+        color: #d9d9d9;
+        opacity: 0.9;
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: justify;
+        }
 
         @media (min-width: 1440px) {
+            font-size: 18px;
+            line-height: 28px;
             text-align: justify;
         }
     }
@@ -65,7 +78,7 @@
             bottom: -2770px;
         }
 
-        @media(min-width: 769px) and (max-width: 1439px){
+        @media (min-width: 769px) and (max-width: 1439px) {
             left: 0;
             bottom: -2790px;
         }
@@ -77,13 +90,19 @@
     }
 
     &__Form {
-        position: relative;
-        padding: 15px 0 0;
+        // position: relative;
+        // padding: 15px 0 0;
         margin: 0 auto;
-        width: 100%;
+        // width: 100%;
         padding: 0 16px;
         max-width: 375px;
         text-align: center;
+
+        @media (min-width: 1440px) {
+            margin: 0;
+            padding: 0;
+            max-width: inherit;
+        }
     }
 
     &__labelName {
@@ -192,29 +211,29 @@
 }
 
 .hr {
-    margin-left: 16px;
-    margin-right: 16px;
+    // margin-left: 16px;
+    // margin-right: 16px;
     border-width: 1px;
     opacity: 0.5;
 
     @media (min-width: 768px) {
-        max-width: 768px;
-        margin-right: 1px;
-        margin-left: 1px;
+        // max-width: 768px;
+        // margin-right: 1px;
+        // margin-left: 1px;
         // padding: 0 32px;
         border-width: 1px;
         opacity: 0.5;
     }
 
     @media (min-width: 769px) and (max-width: 1439px) {
-        margin-right: 11px;
-        margin-left: 1px;
+        // margin-right: 11px;
+        // margin-left: 1px;
     }
 
     @media (min-width: 1440px) {
-        max-width: 1440px;
-        margin-right: 120px;
-        margin-left: 158px;
+        // // max-width: 1440px;
+        // margin-right: 120px;
+        // margin-left: 158px;
         opacity: 1;
     }
 }

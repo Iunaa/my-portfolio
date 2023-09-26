@@ -5,7 +5,7 @@ export const Contact = () => {
     return (
         <>
             <div className={Styles.Contact}>
-                <div className={Styles.Contact__Container}>
+                <div className={Styles.Contact__containerGrey}>
                     <h1 className={Styles.Contact__title}>Contact</h1>
                     <p className={Styles.Contact__paragraph}>
                         I would love to hear about your project and how I could
@@ -54,10 +54,10 @@ export const Contact = () => {
                         </button>
                     </form>
                 </div>
-                <img
+                {/* <img
                     className={Styles.Contact__line3}
                     src="/images/line3.png"
-                />
+                /> */}
             </div>
 
             <hr className={Styles.hr} />
