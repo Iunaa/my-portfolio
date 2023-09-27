@@ -15,14 +15,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 180px;
         max-width: 1440px;
-        
     }
 
     &__containerGrey {
         @media (min-width: 1440px) {
             display: flex;
             flex-direction: column;
-           
         }
     }
 
@@ -211,8 +209,8 @@
 }
 
 .hr {
-    // margin-left: 16px;
-    // margin-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     border-width: 1px;
     opacity: 0.5;
 
@@ -221,19 +219,15 @@
         // margin-right: 1px;
         // margin-left: 1px;
         // padding: 0 32px;
+        margin-left: 0;
+        margin-right: 0;
         border-width: 1px;
         opacity: 0.5;
     }
 
-    @media (min-width: 769px) and (max-width: 1439px) {
-        // margin-right: 11px;
-        // margin-left: 1px;
-    }
-
     @media (min-width: 1440px) {
-        // // max-width: 1440px;
-        // margin-right: 120px;
-        // margin-left: 158px;
+        margin-left: 0;
+        margin-right: 0;
         opacity: 1;
     }
 }
