@@ -4,7 +4,7 @@ import Style from "./header.module.scss";
 export const Header = () => {
     return (
         <>
-            <div className={Style.header}>
+            <section className={Style.header}>
                 <div className={Style.header__container}>
                     <h1 className={`${Style.header__title} typography--body`}>
                         IunaLeon
@@ -12,7 +12,7 @@ export const Header = () => {
 
                     <Icons />
                 </div>
-            </div>
+            </section>
         </>
     );
 };

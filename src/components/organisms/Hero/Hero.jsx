@@ -4,7 +4,7 @@ import Styles from "./hero.module.scss";
 export const Hero = () => {
     return (
         <>
-            <div className={Styles.Hero}>
+            <section className={Styles.Hero}>
                 <div className={Styles.Hero__container}>
                     <picture className={Styles.Hero__picture}>
                         <img
@@ -30,7 +30,7 @@ export const Hero = () => {
                     </p>
                     <a className={Styles.Hero__anchor}>contact me</a>
                 </div>
-            </div>
+            </section>
             <hr className={Styles.Hero__hr} align="center" />
         </>
     );

@@ -81,6 +81,11 @@
         @media (min-width: 1440px) {
             margin-top: 40px;
             margin-right: 132px;
+            @media (min-width: 1440px) {
+                &:hover {
+                    color: rgba(78, 225, 160, 1);
+                }
+            }
         }
     }
 

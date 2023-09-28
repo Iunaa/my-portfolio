@@ -6,7 +6,6 @@
         margin-bottom: 50px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        // padding: 0 12px;
         border: 0;
         padding-top: 12px;
     }
@@ -46,7 +45,7 @@
         text-align: center;
         font-weight: 500;
         line-height: 26px;
-        margin-bottom: 40px;
+        margin-bottom: 24px;
 
         @media (min-width: 768px) {
             text-align: left;
@@ -57,20 +56,20 @@
         }
     }
 
-    &__line2 {
-        position: absolute;
-        right: 0;
-        bottom: -840px;
+    // &__line2 {
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: -840px;
 
-        @media(min-width: 1440px){
-            bottom: -360px;
-        }
-    }
+    //     @media(min-width: 1440px){
+    //         bottom: -360px;
+    //     }
+    // }
 }
 
 .hr {
     display: block;
-    margin-top: 0.5em;
+    margin-top: 40px;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;

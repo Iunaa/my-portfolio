@@ -4,7 +4,7 @@ import Styles from "./contact.module.scss";
 export const Contact = () => {
     return (
         <>
-            <div className={Styles.Contact}>
+            <section className={Styles.Contact}>
                 <div className={Styles.Contact__containerGrey}>
                     <h1 className={Styles.Contact__title}>Contact</h1>
                     <p className={Styles.Contact__paragraph}>
@@ -58,7 +58,7 @@ export const Contact = () => {
                     className={Styles.Contact__line3}
                     src="/images/line3.png"
                 /> */}
-            </div>
+            </section>
 
             <hr className={Styles.hr} />
         </>

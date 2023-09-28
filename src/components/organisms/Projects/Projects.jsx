@@ -4,7 +4,7 @@ import Styles from "../Projects/projects.module.scss";
 export const Projects = () => {
     return (
         <>
-            <div className={Styles.container}>
+            <section className={Styles.container}>
                 <div className={Styles.container__projects}>
                     <h1 className={Styles.container__title1}>Projects</h1>
                     <a className={Styles.container__anchor} href="#">
@@ -134,7 +134,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };

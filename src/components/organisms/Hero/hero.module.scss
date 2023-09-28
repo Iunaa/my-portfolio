@@ -11,7 +11,7 @@
         display: flex;
         align-items: flex-end;
         flex-direction: row-reverse;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     @media (min-width: 1000px) and (max-width: 1439px) {
@@ -41,8 +41,8 @@
         }
 
         @media (min-width: 1440px) {
-            width: 430px;
-            height: 650px;
+            width: 540px;
+            height: 800px;
             margin-bottom: 113px;
             align-items: flex-end;
             margin-right: 132px;
@@ -77,21 +77,21 @@
             bottom: 570px;
         }
     }
-    &__Oval {
-        position: absolute;
-        left: 85%;
-        top: 34.5%;
+    // &__Oval {
+    //     position: absolute;
+    //     left: 85%;
+    //     top: 34.5%;
 
-        @media (min-width: 768px) {
-            left: 92%;
-            top: 71%;
-        }
+    //     @media (min-width: 768px) {
+    //         left: 92%;
+    //         top: 71%;
+    //     }
 
-        @media (min-width: 1440px) {
-            left: 54%;
-            top: 64%;
-        }
-    }
+    //     @media (min-width: 1440px) {
+    //         left: 54%;
+    //         top: 64%;
+    //     }
+    // }
 
     &__introduction {
         display: flex;
@@ -127,7 +127,6 @@
         line-height: 40px;
         letter-spacing: -1.136px;
         text-align: center;
-        // max-width: 383px;
         max-height: 80px;
 
         @media (min-width: 768px) {
@@ -138,15 +137,6 @@
 
             margin-bottom: 80px;
         }
-
-        // @media (min-width: 1000px) and (max-width: 1439px) {
-        //     font-size: 88px;
-        //     font-weight: 700;
-        //     line-height: 88px;
-        //     letter-spacing: -2.5px;
-        //     padding-top: 20px;
-        //     max-width: 709px;
-        // }
 
         @media (min-width: 1440px) {
             font-size: 88px;
@@ -179,15 +169,12 @@
             text-align: left;
             padding-bottom: 44px;
             padding-left: 0px;
-            // padding-right: 240px;
             margin-top: 130px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
             font-size: 18px;
             text-align: left;
-            // margin-top: 133px;
-
             padding-bottom: 34px;
         }
         @media (min-width: 1440px) {
@@ -197,7 +184,6 @@
             margin-left: 30px;
             padding-bottom: 34px;
             max-width: 445px;
-            
         }
     }
 
@@ -247,7 +233,7 @@
 
         @media (min-width: 1440px) {
             max-width: 1110px;
-            margin-top: 10px;
+            margin-top: 0px;
             margin-right: 165px;
             margin-left: 165px;
             color: white;

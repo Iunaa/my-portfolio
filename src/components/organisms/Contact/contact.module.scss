@@ -1,8 +1,6 @@
 .Contact {
     text-align: center;
-    // margin-top: 60px;
-    // position: relative;
-    padding-top: 60px;
+    padding-top: 50px;
     margin: 0 auto;
     @media (min-width: 768px) {
         max-width: 445px;
@@ -25,10 +23,13 @@
     }
 
     &__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.136px;
         margin-bottom: 20px;
         @media (min-width: 768px) {
             font-size: 72px;
-            font-weight: 700;
             line-height: 72px;
             letter-spacing: -2.045px;
         }
@@ -66,32 +67,29 @@
         }
     }
 
-    &__line3 {
-        position: absolute;
-        left: -23px;
-        bottom: -4370px;
+    // &__line3 {
+    //     position: absolute;
+    //     left: -23px;
+    //     bottom: -4370px;
 
-        @media (min-width: 768px) {
-            left: 0;
-            bottom: -2770px;
-        }
+    //     @media (min-width: 768px) {
+    //         left: 0;
+    //         bottom: -2770px;
+    //     }
 
-        @media (min-width: 769px) and (max-width: 1439px) {
-            left: 0;
-            bottom: -2790px;
-        }
+    //     @media (min-width: 769px) and (max-width: 1439px) {
+    //         left: 0;
+    //         bottom: -2790px;
+    //     }
 
-        @media (min-width: 1440px) {
-            left: 0px;
-            bottom: -3050px;
-        }
-    }
+    //     @media (min-width: 1440px) {
+    //         left: 0px;
+    //         bottom: -3050px;
+    //     }
+    // }
 
     &__Form {
-        // position: relative;
-        // padding: 15px 0 0;
         margin: 0 auto;
-        // width: 100%;
         padding: 0 16px;
         max-width: 375px;
         text-align: center;
@@ -203,6 +201,7 @@
 
             &:hover {
                 color: rgba(78, 225, 160, 1);
+                cursor: pointer;
             }
         }
     }
@@ -215,10 +214,6 @@
     opacity: 0.5;
 
     @media (min-width: 768px) {
-        // max-width: 768px;
-        // margin-right: 1px;
-        // margin-left: 1px;
-        // padding: 0 32px;
         margin-left: 0;
         margin-right: 0;
         border-width: 1px;
