@@ -51,7 +51,10 @@ export const Projects = () => {
                     </div>
 
                     <div className={Styles.container__bitmap}>
-                        <a href="https://pinkbox.vercel.app/" target="_blank">
+                        <a
+                            href="https://pinkbox-six.vercel.app/"
+                            target="_blank"
+                        >
                             <img
                                 className={Styles.container__img}
                                 src="/images/2.png"
@@ -64,7 +67,7 @@ export const Projects = () => {
                         </div>
                         <div className={Styles.Content__view}>
                             <a
-                                href="https://pinkbox.vercel.app/"
+                                href="https://pinkbox-six.vercel.app/"
                                 target="_blank"
                             >
                                 <p className={Styles.Content__project}>
