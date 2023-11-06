@@ -13,7 +13,7 @@ export const Hero = () => {
                         />
                     </picture>
                 </div>
-               
+
                 <div className={Styles.Hero__introduction}>
                     <h1 className={Styles.Hero__title}>
                         Nice to meet you! I’m{" "}
@@ -23,8 +23,9 @@ export const Hero = () => {
                         .
                     </h1>
                     <p className={Styles.Hero__paragraph}>
-                        Based in Brazil, I'm a front-end intern who loves web
-                        development and wants to learn new technologies.
+                        {
+                            "Based in Brazil, I'm a front-end intern who loves web development and wants to learn new technologies."
+                        }
                     </p>
                     <a className={Styles.Hero__anchor} href="#contact">
                         contact me
