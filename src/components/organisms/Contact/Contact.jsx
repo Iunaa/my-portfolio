@@ -1,10 +1,13 @@
 import React from "react";
 import Styles from "./contact.module.scss";
+// import { useForm } from "@formspree/react";
 
 export const Contact = () => {
+//     const [state, handleSubmit] = useForm(process.env.FORMSPREE_ID);
+
     return (
         <>
-            <section className={Styles.Contact}>
+            <section id="contact" className={Styles.Contact}>
                 <div className={Styles.Contact__containerGrey}>
                     <h1 className={Styles.Contact__title}>Contact</h1>
                     <p className={Styles.Contact__paragraph}>
@@ -16,6 +19,7 @@ export const Contact = () => {
 
                 <div className={Styles.Contact__Form}>
                     <form>
+                        {/* <form onSubmit={handleSubmit}> */}
                         <div className={Styles.Contact__Name}>
                             <label className={Styles.Contact__labelName}>
                                 Name
@@ -49,7 +53,11 @@ export const Contact = () => {
                                 />
                             </label>
                         </div>
-                        <button className={Styles.Contact__submit}>
+                        <button
+                            // type="submit"
+                            // disabled={state.submitting}
+                            className={Styles.Contact__submit}
+                        >
                             SEND MESSAGE
                         </button>
                     </form>

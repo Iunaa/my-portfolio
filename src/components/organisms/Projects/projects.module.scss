@@ -17,18 +17,19 @@
         margin-top: 60px;
 
         @media (min-width: 768px) {
-            margin-top: 15px;
+            margin-top: 0px;
             gap: 295px;
         }
 
         @media (min-width: 769px) and (max-width: 1439px) {
-            margin-top: 15px;
+            margin-top: 0px;
             gap: 305px;
         }
 
         @media (min-width: 1440px) {
             display: flex;
             gap: 570px;
+            margin-top: 0px;
         }
     }
 
@@ -114,19 +115,16 @@
     &__img {
         width: 100%;
         height: 253px;
-        margin-top: -30px;
+        max-width: 345px;
 
         @media (min-width: 768px) {
             max-width: 345px;
             height: 253px;
         }
-        @media (min-width: 769px) and (max-width: 1439px) {
-            max-width: 336px;
-        }
 
         @media (min-width: 1440px) {
             position: relative;
-            max-width: 500px;
+            max-width: 540px;
             height: 400px;
         }
     }

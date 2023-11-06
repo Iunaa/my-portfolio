@@ -1,14 +1,18 @@
 .footer {
     margin-top: 39px;
     margin-bottom: 60px;
-    // padding: 0 123px;
 
     @media (min-width: 768px) {
+        margin: 0 auto;
+        padding-top: 0px;
         margin-bottom: 30px;
-       margin-top: 9px;
+        margin-top: 9px;
+        max-width: 768px;
     }
 
-    @media (min-width: 1440px){
+    @media (min-width: 1440px) {
+        gap: 180px;
+        max-width: 1440px;
         margin-bottom: 0;
     }
 
@@ -22,7 +26,6 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: baseline;
-            
         }
 
         @media (min-width: 1440px) {
@@ -37,11 +40,11 @@
         letter-spacing: -0.333px;
 
         @media (min-width: 768px) {
-            margin-right: 365px;
+            // margin-right: 365px;
         }
 
         @media (min-width: 1440px) {
-            margin-right: 385px;
+            // margin-right: 385px;
         }
     }
 }

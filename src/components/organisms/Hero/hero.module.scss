@@ -6,6 +6,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    padding: 0 16px;
 
     @media (min-width: 768px) {
         display: flex;
@@ -41,8 +42,8 @@
         }
 
         @media (min-width: 1440px) {
-            width: 540px;
-            height: 800px;
+            width: 460px;
+            height: 690px;
             margin-bottom: 113px;
             align-items: flex-end;
             margin-right: 132px;
@@ -77,21 +78,6 @@
             bottom: 570px;
         }
     }
-    // &__Oval {
-    //     position: absolute;
-    //     left: 85%;
-    //     top: 34.5%;
-
-    //     @media (min-width: 768px) {
-    //         left: 92%;
-    //         top: 71%;
-    //     }
-
-    //     @media (min-width: 1440px) {
-    //         left: 54%;
-    //         top: 64%;
-    //     }
-    // }
 
     &__introduction {
         display: flex;
@@ -170,6 +156,7 @@
             padding-bottom: 44px;
             padding-left: 0px;
             margin-top: 130px;
+            max-width: 375px;
         }
 
         @media (min-width: 1000px) and (max-width: 1439px) {
