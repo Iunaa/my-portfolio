@@ -4,6 +4,11 @@ import { useForm } from "@formspree/react";
 
 export const Contact = () => {
     const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID);
+    const Submit = (e) => {
+        e.preventDefault();
+        handleSubmit(e);
+        e.target.reset();
+    };
 
     return (
         <>
@@ -18,7 +23,7 @@ export const Contact = () => {
                 </div>
 
                 <div className={Styles.Contact__Form}>
-                    <form onSubmit={handleSubmit} method="POST">
+                    <form onSubmit={Submit} method="POST">
                         <div className={Styles.Contact__Name}>
                             <label className={Styles.Contact__labelName}>
                                 Name
