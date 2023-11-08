@@ -1,9 +1,9 @@
 import React from "react";
 import Styles from "./contact.module.scss";
-// import { useForm } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 export const Contact = () => {
-//     const [state, handleSubmit] = useForm(process.env.FORMSPREE_ID);
+    const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID);
 
     return (
         <>
@@ -18,12 +18,12 @@ export const Contact = () => {
                 </div>
 
                 <div className={Styles.Contact__Form}>
-                    <form>
-                        {/* <form onSubmit={handleSubmit}> */}
+                    <form onSubmit={handleSubmit} method="POST">
                         <div className={Styles.Contact__Name}>
                             <label className={Styles.Contact__labelName}>
                                 Name
                                 <input
+                                    name="name"
                                     required
                                     type="text"
                                     placeholder=""
@@ -35,6 +35,7 @@ export const Contact = () => {
                             <label className={Styles.Contact__labelEmail}>
                                 Email
                                 <input
+                                    name="email"
                                     required
                                     type="email"
                                     placeholder=""
@@ -46,6 +47,7 @@ export const Contact = () => {
                             <label className={Styles.Contact__labelMessage}>
                                 Message
                                 <textarea
+                                    name="message"
                                     required
                                     type="text"
                                     placeholder=""
@@ -54,18 +56,15 @@ export const Contact = () => {
                             </label>
                         </div>
                         <button
-                            // type="submit"
-                            // disabled={state.submitting}
+                            type="submit"
+                            disabled={state.submitting}
+                            onClick={() => alert("Your message was sent!")}
                             className={Styles.Contact__submit}
                         >
                             SEND MESSAGE
                         </button>
                     </form>
                 </div>
-                {/* <img
-                    className={Styles.Contact__line3}
-                    src="/images/line3.png"
-                /> */}
             </section>
 
             <hr className={Styles.hr} />
