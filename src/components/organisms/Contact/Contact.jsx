@@ -4,7 +4,7 @@ import { useForm } from "@formspree/react";
 
 export const Contact = () => {
     const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID);
-    const Submit = (e) => {
+    const Submit = (e) => {           // fazer uma funcao Submit para resetar o formulário
         e.preventDefault();
         handleSubmit(e);
         e.target.reset();
