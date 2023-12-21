@@ -18,26 +18,26 @@ export const Experience = () => {
                 <div className={Styles.experience__container}>
                     <h3 className={Styles.experience__title}>Javascript</h3>
                     <p className={Styles.experience__time}>
-                        6 Mounths Experience
+                        9 Months Experience
                     </p>
                 </div>
                 <div className={Styles.experience__container}>
                     <h3 className={Styles.experience__title}>Accessibility</h3>
                     <p className={Styles.experience__time}>
-                        6 Mounths Experience
+                        9 Months Experience
                     </p>
                 </div>
                 <div className={Styles.experience__container}>
                     <h3 className={Styles.experience__title}>React</h3>
                     <p className={Styles.experience__time}>
-                        6 Mounths Experience
+                        9 Months Experience
                     </p>
                 </div>
 
                 <div className={Styles.experience__container}>
                     <h3 className={Styles.experience__title}>Sass</h3>
                     <p className={Styles.experience__time}>
-                        6 Mounths Experience
+                        9 Months Experience
                     </p>
                 </div>
             </section>
